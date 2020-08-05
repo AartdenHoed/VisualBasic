@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ADHCinfo>
+<ADHCinfo Nodes="*ALL*">
 	<Stagelib>
-	  <Directory Process="Copy">D:\AartenHetty\OneDrive\Staging Library\Visual Basic</Directory>
+	  <Directory Build="Copy">D:\AartenHetty\OneDrive\Staging Library\Visual Basic</Directory>
 	</Stagelib>
 	<Target>
-	  <Directory>C:\AdHC\Visual Basic</Directory>
-	  <Nodes>*ALL*</Nodes>
+	  <Directory Deploy="Copy" Delay="0">C:\AdHC\Visual Basic</Directory>
 	</Target>
 	<DSL>
-	  <Directory>D:\Software\DSL\Visual Basic</Directory>
-	  <Nodes>*ALL*</Nodes>
+	  <Directory Delay="14">D:\Software\DSL\Visual Basic</Directory>
 	</DSL>
 </ADHCinfo>
